@@ -1,7 +1,7 @@
 # BaselineGridTextView
 An extension to {@link AppCompatTextView} which aligns text to a 4dp baseline grid.
 
-[![Build Status](https://travis-ci.org/Commit451/ForegroundViews.svg?branch=master)](https://travis-ci.org/Commit451/ForegroundViews)
+[![Build Status](https://travis-ci.org/Commit451/BaselineGridTextView.svg?branch=master)](https://travis-ci.org/Commit451/BaselineGridTextView)
 
 # Gradle Dependency
 Easily reference the library in your Android projects using this dependency in your module's `build.gradle` file:
@@ -13,7 +13,7 @@ dependencies {
 ```
 
 # Usage
-Usage is very similar for each of the foreground views. Within XML:
+Usage is controlled through XML or programatically. Within XML:
 
 ```xml
 <com.commit451.baselinegridtextview.BaselineGridTextView
@@ -27,6 +27,11 @@ Usage is very similar for each of the foreground views. Within XML:
 app:lineHeightMultiplierHint="1.2"
 ```
 which will take your set text size and multiply it by the value specified.
+
+or programatically:
+```java
+
+```
 
 # Testing
 We highly recommend the app [Keyline Pushing](https://play.google.com/store/apps/details?id=com.faizmalkani.keylines) for testing.

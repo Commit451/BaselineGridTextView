@@ -110,19 +110,35 @@ public class BaselineGridTextView extends AppCompatTextView {
         }
     }
 
+    /**
+     * Get the line height multiplier hint
+     * @return the multiplier
+     */
     public float getLineHeightMultiplierHint() {
         return lineHeightMultiplierHint;
     }
 
+    /**
+     * Set the line height multiplier hint
+     * @param lineHeightMultiplierHint the multiplier hint
+     */
     public void setLineHeightMultiplierHint(float lineHeightMultiplierHint) {
         this.lineHeightMultiplierHint = lineHeightMultiplierHint;
         recomputeLineHeight();
     }
 
+    /**
+     * Get the line height hint
+     * @return the line height hint
+     */
     public float getLineHeightHint() {
         return lineHeightHint;
     }
 
+    /**
+     * Set the lint height hint
+     * @param lineHeightHint the line height hint, in pixels
+     */
     public void setLineHeightHint(float lineHeightHint) {
         this.lineHeightHint = lineHeightHint;
         recomputeLineHeight();

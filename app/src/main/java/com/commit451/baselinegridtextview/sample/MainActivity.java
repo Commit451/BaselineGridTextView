@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
+import com.commit451.baselinegridtextview.BaselineGridTextView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -12,5 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        BaselineGridTextView textView = (BaselineGridTextView) findViewById(R.id.textview);
+        textView.setLineHeightHint(1.0f);
     }
 }
