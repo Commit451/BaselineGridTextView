@@ -1,5 +1,5 @@
 # BaselineGridTextView
-An extension to {@link AppCompatTextView} which aligns text to a 4dp baseline grid.
+An extension to `AppCompatTextView` which aligns text to a 4dp baseline grid.
 
 [![Build Status](https://travis-ci.org/Commit451/BaselineGridTextView.svg?branch=master)](https://travis-ci.org/Commit451/BaselineGridTextView)
 
@@ -30,7 +30,8 @@ which will take your set text size and multiply it by the value specified.
 
 or programatically:
 ```java
-
+int size = getResources().getDimensionPixelSize(R.dimen.textsize);
+textView.setLineHeightHint(size);
 ```
 
 # Testing
