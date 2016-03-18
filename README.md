@@ -1,5 +1,6 @@
 # BaselineGridTextView
 An extension to `AppCompatTextView` which aligns text to a 4dp baseline grid.
+Original code taken from [Plaid](https://github.com/nickbutcher/plaid). Thanks to @nickbutcher
 
 [![Build Status](https://travis-ci.org/Commit451/BaselineGridTextView.svg?branch=master)](https://travis-ci.org/Commit451/BaselineGridTextView)
 
