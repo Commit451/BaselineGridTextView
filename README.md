@@ -2,16 +2,7 @@
 An extension to `AppCompatTextView` which aligns text to a 4dp baseline grid.
 Original code taken from [Plaid](https://github.com/nickbutcher/plaid). Thanks to @nickbutcher
 
-[![Build Status](https://travis-ci.org/Commit451/BaselineGridTextView.svg?branch=master)](https://travis-ci.org/Commit451/BaselineGridTextView)
-
-# Gradle Dependency
-Easily reference the library in your Android projects using this dependency in your module's `build.gradle` file:
-
-```Gradle
-dependencies {
-    compile 'com.commit451:baselinegridtextview:1.0.0'
-}
-```
+[![Build Status](https://travis-ci.org/Commit451/BaselineGridTextView.svg?branch=master)](https://travis-ci.org/Commit451/BaselineGridTextView) [![](https://jitpack.io/v/Commit451/BaselineGridTextView.svg)](https://jitpack.io/#Commit451/BaselineGridTextView)
 
 # Usage
 Usage is controlled through XML or programatically. Within XML:
@@ -41,8 +32,8 @@ We highly recommend the app [Keyline Pushing](https://play.google.com/store/apps
 License
 --------
 
-    Copyright 2015 Google, Inc.
     Copyright 2016 Commit 451
+    Copyright 2015 Google, Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
