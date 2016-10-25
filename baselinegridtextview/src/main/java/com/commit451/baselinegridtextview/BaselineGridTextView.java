@@ -32,7 +32,7 @@ import android.util.TypedValue;
  * the grid.
  * <p>
  * We also adjust spacing above and below the text to ensure that the first line's baseline sits on
- * the grid (relative to the view's top) & that this view's height is a multiple of 4dp so that
+ * the grid (relative to the view's top) &amp; that this view's height is a multiple of 4dp so that
  * subsequent views start on the grid.
  */
 public class BaselineGridTextView extends AppCompatTextView {
